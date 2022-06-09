@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Montserrat&family=Oswald:wght@300&family=PT+Sans&family=Playfair+Display:wght@500&family=Righteous&family=Sarala:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+
+.bg {
+    background-image: url(forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px) brightness(70%);
+
+}
+
+.cabecalho {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #e1e1e1;
+    background-image: -webkit-linear-gradient(180deg, #e1e1e1 0%, #ffffff 50%, #e1e1e1 100%);
+    background-image: -moz-linear-gradient(180deg, #e1e1e1 0%, #ffffff 50%, #e1e1e1 100%);
+    background-image: -o-linear-gradient(180deg, #e1e1e1 0%, #ffffff 50%, #e1e1e1 100%);
+    background-image: linear-gradient(180deg, #e1e1e1 0%, #ffffff 50%, #e1e1e1 100%);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 52%;
+
+}
+
+.cabecalho-imagem {
+    filter: drop-shadow(5px 5px 5px rgb(126, 124, 124));
+    height: 100px;
+    margin-left: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.cabecalho-menu-item:hover {
+    font-size: 20px;
+    color: firebrick;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagem-conteudo-principal {
+    height: 900px;
+    margin: -80px;
+    margin-top: 50px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.formulario-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: -50px;
+    margin-top: -70px;
+}
+
+.formulario {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 40px;
+    border-radius: 30px;
+    background-color: rgba(245, 237, 237, 0.274);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.inputs{
+    margin: 5px;
+    border: none;
+	border-radius: 10px;
+    text-align: center;
+    font-family:  'Playfair Display', serif;
+}
+
+.botao {
+    border-radius: 30px;
+    font-size: 20px;
+    font-family:  'Playfair Display', serif;
+    height: 40px;
+    width: 180px;
+    
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e1e1e1;
+    background-image: -webkit-linear-gradient(180deg, #e1e1e1 0%, #ffffff 50%, #e1e1e1 100%);
+    background-image: -moz-linear-gradient(180deg, #e1e1e1 0%, #ffffff 50%, #e1e1e1 100%);
+    background-image: -o-linear-gradient(180deg, #e1e1e1 0%, #ffffff 50%, #e1e1e1 100%);
+    background-image: linear-gradient(180deg, #e1e1e1 0%, #ffffff 50%, #e1e1e1 100%);
+
+}
+
+.imagem-rodape {
+    align-items: center;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    filter: drop-shadow(5px 5px 5px rgb(126, 124, 124));
+}
